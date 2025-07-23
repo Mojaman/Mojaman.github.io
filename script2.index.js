@@ -1,4 +1,4 @@
-console.log('ボンパイエ');
+console.log('正常にスタート！');
 
 //画面を一番上に戻すための下準備
 if ('scrollRestoration' in history) {
