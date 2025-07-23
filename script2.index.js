@@ -78,7 +78,7 @@ const doTest = () => {
 
         check = 0;
         
-        window.scrollTo(0, 3000);
+        window.scrollTo(0, 3700);
 
         console.log(result);
 
@@ -197,7 +197,7 @@ const pointCalc = () => {
 
          if(result[counter2] == syoukikan[counter1][counter2]){
 
-            temporary += 2;
+            temporary += 1;
 
           }else{
 
