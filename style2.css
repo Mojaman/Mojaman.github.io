@@ -25,13 +25,29 @@ body{
     text-align: center;
     font-size: 200px;
     font-style: oblique;
-    background-color: #ffffba;
+    background-color: #eef694;
     border-radius: 60px;
+    color:#ff5f6e;
+    border:0;
+
+    box-shadow:3px 3px 6px 2px rgb(0 0 0 / 0.25);
+    cursor:pointer;
     
 }
 
 #button1:hover{
-    color: red;
+    color: #ff0000;
+    background-color:#ffffca;
+    box-shadow:6px 6px 6px 2px rgb(0 0 0 / 0.25);
+}
+
+#caution{
+    opacity:0;
+    margin:-10px;
+    margin-top:15px;
+    font-size:60%;
+    text-align:right;
+    margin-right:20px
 }
 
 #question{
@@ -60,7 +76,17 @@ body{
     margin-right:10%;
     margin-top:-10px;
      border-radius: 60px;
+    /* box-shadow:3px 3px 0px 2px red; */
+     box-shadow:3px 3px 6px 2px red;
+    border:0;
+    cursor:pointer;
     
+    
+}
+
+#button2:hover{
+     box-shadow:6px 6px 6px 2px red;
+    background-color:#ffe1e3;
 }
 
 #button3{
@@ -72,8 +98,15 @@ body{
     margin-left:10%;
      margin-top:-10px;
      border-radius: 60px;
+     box-shadow:3px 3px 6px 2px blue;
+    border:0;
+    cursor:pointer;
 }
 
+#button3:hover{
+     box-shadow:6px 6px 6px 2px blue;
+    background-color:#e2e1ff;
+}
 #pad {
     margin-top:600px;
 }
@@ -86,7 +119,18 @@ body{
     padding: 20px;
      opacity: 1;
      transition: opacity 0.3s;
+     box-shadow:3px 3px 6px 2px rgb(0 0 0 / 0.25);
+    border:0;
+     color:black;
+    background-color: #eef694;
+    cursor:pointer;
 
+}
+
+#button4:hover{
+    color: #ff0000;
+    /* background-color:#ffffca; */
+    box-shadow:6px 6px 6px 2px rgb(0 0 0 / 0.25);
 }
 
 #button4.fadeout{
@@ -182,6 +226,14 @@ body{
     margin-bottom: 300px;
     font-size:300% /*←なぜダブルセミコロン無しでうまくいってるのか完全に不明　消したり、セミコロンつけたりするとバグる*/
     
+}
+    #caution{
+    opacity:50%;
+    margin:-10px;
+    margin-top:15px;
+    font-size:60%;
+    text-align:right;
+    margin-right:20px
 }
 
 
