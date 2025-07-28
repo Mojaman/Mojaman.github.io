@@ -80,6 +80,7 @@ body{
      box-shadow:3px 3px 6px 2px red;
     border:0;
     cursor:pointer;
+    color:black;
     
     
 }
@@ -101,6 +102,7 @@ body{
      box-shadow:3px 3px 6px 2px blue;
     border:0;
     cursor:pointer;
+    color:black;
 }
 
 #button3:hover{
