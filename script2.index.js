@@ -1,4 +1,6 @@
-console.log('正常にスタート！');
+console.log('ボンパイエ');
+
+
 
 //画面を一番上に戻すための下準備
 if ('scrollRestoration' in history) {
@@ -177,7 +179,7 @@ const syoukikan = [Rkaku, Rkakusyoutai, Rmitokondoria, Ryouryokutai, Rsaiboumaku
 //最終的に表示する結果を保存するリスト
  let maxSave = [];
 
-
+console.log("nulかなー"+ syoukikans[maxSave[0]]);
 
 //nearPointに保存するポイントを計算してなんか出力する関数　アルゴリズムがうんこ改善の余地あり
 
@@ -273,10 +275,19 @@ const showResult = () => {
 
     document.getElementById('button4').classList.add('fadeout');
 
-    document.getElementById('result').textContent = syoukikans[maxSave[0]];
+    if(syoukikans[maxSave[0]] == undefined ){
+        
+        document.getElementById('result').textContent = "エラー！！";
+
+    }else{
+
+        document.getElementById('result').textContent = syoukikans[maxSave[0]];
+
+    }
 
      document.getElementById('result').classList.add('fadein');
 }
+
 
 
 
