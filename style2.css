@@ -187,14 +187,16 @@ body{
 #resultAd{
 
    
-    fontsize:150%;
+    font-size:200%;
     opacity:0;
     transition:opacity 3s;
 
     border:5px solid #FFCB14;
     padding:25px;
-    width:50%;
-    margin-left:25%;
+    /* width:50%;
+    margin-left:25%; */
+    margin-left:10px;
+    margin-right:10px;
 
     background-color:#fff7ea;
 
@@ -367,7 +369,7 @@ body{
 #resultAd{
 
    
-    fontsize:100%;
+    font-size:250%;
     opacity:0;
     transition:opacity 3s;
 }
