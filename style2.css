@@ -208,6 +208,20 @@ body{
     opacity:1;
 }
 
+#pad{
+    opacity:0;
+}
+
+#onemore{
+
+    opacity:0;
+    transition:opacity 10s;
+}
+
+#onemore.fadein{
+
+    opacity:1;
+}
 
 
 
@@ -312,7 +326,7 @@ body{
 
 #button4{
    margin-left:18%;
-    margin-top:15%;
+    margin-top:5%;
     font-size:500%;
     border-radius:60px;
     padding: 20px;
@@ -343,7 +357,7 @@ body{
 
     text-align:center;
     font-size:450%;
-    margin-top:-10%;
+    margin-top:-30%;
     opacity:0;
     transition:opacity 3s; 
 }
@@ -369,7 +383,7 @@ body{
 #resultAd{
 
    
-    font-size:250%;
+    font-size:200%;
     opacity:0;
     transition:opacity 3s;
 }
@@ -378,6 +392,18 @@ body{
 
     opacity:1;
 }
+
+#onemore{
+
+    opacity:0;
+    transition:opacity 5s;
+}
+
+#onemore.fadein{
+
+    opacity:1;
+}
+    
 }
 
 
