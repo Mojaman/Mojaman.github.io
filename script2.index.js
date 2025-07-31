@@ -61,7 +61,7 @@ let num;
 //"占い"スタート 
 const start = () => {
     window.scrollTo({
-       top: 2100,behavior: 'smooth'
+       top: 2200,behavior: 'smooth'
     });
 
 
@@ -88,7 +88,7 @@ const doTest = () => {
 
         check = 0;
         
-        window.scrollTo(0, 3800);
+        window.scrollTo(0, 3850);
 
         console.log(result);
 
@@ -301,6 +301,8 @@ const showResult = () => {
     document.getElementById('resultEn').classList.add('fadein');
 
      document.getElementById('resultAd').classList.add('fadein');
+
+     document.getElementById('onemore').classList.add('fadein');
 }
 
 
